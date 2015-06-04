@@ -122,7 +122,8 @@ libscifileio_la_CPPFLAGS = -I$(srcdir)/includes/ \
 				-I$(top_srcdir)/modules/preferences/includes/ \
 				$(XML_FLAGS) \
 				$(CURL_CFLAGS) \
-				$(AM_CPPFLAGS)
+				$(AM_CPPFLAGS) \
+				$(LIBARCHIVE_CFLAGS) 
 
 if MAINTAINER_MODE
 pkglib_LTLIBRARIES = libscifileio.la
@@ -136,14 +137,16 @@ endif
 libscifileio_algo_la_SOURCES = $(FILEIO_SOURCES)
 libscifileio_la_SOURCES = $(GATEWAY_SOURCES) $(GATEWAY_CXX_SOURCES)
 libscifileio_algo_la_CPPFLAGS = $(libscifileio_la_CPPFLAGS)
-libscifileio_algo_la_LIBADD = $(CURL_LIBS)
+libscifileio_algo_la_LIBADD = $(CURL_LIBS) \
+			      $(LIBARCHIVE_LIBS)
 
 # For the code check (splint)
 CHECK_SRC= $(FILEIO_SOURCES) $(GATEWAY_SOURCES)
 INCLUDE_FLAGS = $(libscifileio_la_CPPFLAGS)
 
 # pb of order $(top_builddir)/modules/console/libsciconsole.la
-libscifileio_la_LIBADD = libscifileio-algo.la $(CURL_LIBS)
+libscifileio_la_LIBADD = libscifileio-algo.la $(CURL_LIBS) \
+			 $(LIBARCHIVE_LIBS)
 
 #### Target ######
 modulename=fileio
@@ -165,6 +168,8 @@ libscifileio_la_sci_gateway_DATA = sci_gateway/fileio_gateway.xml
 #### fileio : include files ####
 libscifileio_la_includedir=$(pkgincludedir)
 libscifileio_la_include_HEADERS = includes/getFullFilename.h \
-includes/dynlib_fileio.h
+includes/dynlib_fileio.h \
+includes/sci_gateway.h \
+includes/mex.h 
 
 include $(top_srcdir)/Makefile.incl.am

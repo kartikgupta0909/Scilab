@@ -1,0 +1,669 @@
+checking whether ln -s works... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for _LARGEFILE64_SOURCE value needed for large files... 
+checking for a BSD-compatible install... /usr/bin/install -c
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for ld used by GCC... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library path variable... LD_LIBRARY_PATH
+checking whether to activate relocatable installation... no
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for shared library run path origin... done
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... (cached) /bin/grep
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gfortran... gfortran
+checking whether we are using the GNU Fortran 77 compiler... yes
+checking whether gfortran accepts -g... yes
+checking if gfortran is a fortran 90 compatible compiler... yes
+checking size of int... 4
+checking size of long... 8
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking for g++... yes
+checking whether gfortran understands -c and -o together... yes
+checking for nm... nm
+checking for leading underscores with Fortran (name-mangling scheme)... no
+checking for trailing underscores with Fortran (name-mangling scheme)... yes
+checking use of the sharpsign in CPP... yes
+Define C2F with Trailing Underscore and Sharp Sign
+checking hdf5.h usability... yes
+checking hdf5.h presence... yes
+checking for hdf5.h... yes
+checking for H5Fopen in -lhdf5... yes
+checking for clock_gettime in -lrt... yes
+checking for ocamlc... ocamlc
+checking for ocamlopt... ocamlopt
+checking for ocamldep... ocamldep
+checking for ocamlyacc... ocamlyacc
+checking for ocamllex... ocamllex
+checking for sleep... yes
+checking for usleep... yes
+checking for dup2... yes
+checking for getcwd... yes
+checking for getpagesize... yes
+checking for getpass... yes
+checking for rmdir... yes
+checking for getwd... yes
+checking for regcomp... yes
+checking for atexit... yes
+checking for putenv... yes
+checking for setenv... yes
+checking for bzero... yes
+checking for memmove... yes
+checking for memset... yes
+checking for strcasecmp... yes
+checking for strerror... yes
+checking for strchr... yes
+checking for strdup... yes
+checking for strpbrk... yes
+checking for strrchr... yes
+checking for strstr... yes
+checking for strtol... yes
+checking for select... yes
+checking for endpwent... yes
+checking for gethostbyaddr... yes
+checking for gethostbyname... yes
+checking for gethostname... yes
+checking for gettimeofday... yes
+checking for isascii... yes
+checking for iswprint... yes
+checking for mkdir... yes
+checking for munmap... yes
+checking for strsignal... yes
+checking for cos in -lm... yes
+checking for pow... yes
+checking for sqrt... yes
+checking for finite... yes
+checking for floor... yes
+checking for exp10... yes
+checking for erf... yes
+checking for erfc... yes
+checking for isnan... yes
+checking for isinf... yes
+checking for re_comp... yes
+checking for socket... yes
+checking for uname... yes
+checking for setlocale... yes
+checking for working memcmp... yes
+checking whether lstat correctly handles trailing slash... yes
+checking whether stat accepts an empty string... no
+checking for working strtod... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking values.h usability... yes
+checking values.h presence... yes
+checking for values.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking nlist.h usability... no
+checking nlist.h presence... no
+checking for nlist.h... no
+checking sgtty.h usability... yes
+checking sgtty.h presence... yes
+checking for sgtty.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/timeb.h usability... yes
+checking sys/timeb.h presence... yes
+checking for sys/timeb.h... yes
+checking sys/utsname.h usability... yes
+checking sys/utsname.h presence... yes
+checking for sys/utsname.h... yes
+checking syslog.h usability... yes
+checking syslog.h presence... yes
+checking for syslog.h... yes
+checking term.h usability... yes
+checking term.h presence... yes
+checking for term.h... yes
+checking termcap.h usability... yes
+checking termcap.h presence... yes
+checking for termcap.h... yes
+checking termio.h usability... yes
+checking termio.h presence... yes
+checking for termio.h... yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking wctype.h usability... yes
+checking wctype.h presence... yes
+checking for wctype.h... yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking whether time.h and sys/time.h may both be included... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for struct stat.st_blksize... yes
+checking for struct stat.st_rdev... yes
+checking for a sed that does not truncate output... /bin/sed
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking whether closedir returns void... no
+checking return type of signal handlers... void
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for struct stat.st_blocks... yes
+checking for main in -lcurses... yes
+checking for library containing tgetent... none required
+checking ncurses.h usability... yes
+checking ncurses.h presence... yes
+checking for ncurses.h... yes
+checking curses.h usability... yes
+checking curses.h presence... yes
+checking for curses.h... yes
+checking for dlopen in -ldl... yes
+checking for library containing pthread_join... -lpthread
+checking fftw3.h usability... yes
+checking fftw3.h presence... yes
+checking for fftw3.h... yes
+checking for fftw_plan_dft_r2c in -lfftw3... yes
+checking omp.h usability... yes
+checking omp.h presence... yes
+checking for omp.h... yes
+checking for xml2-config... xml2-config
+checking for xmlReaderForFile in -lxml2... yes
+checking for xmlBufferDetach in -lxml2... yes
+checking for bind_textdomain_codeset... yes
+checking for msgcat... /usr/bin/msgcat
+checking if BLAS, ATLAS or MKL is available... 
+checking how to get verbose linking output from gfortran... -v
+checking for Fortran 77 libraries of gfortran...  -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. -lpthread -ldl -lcurses -lgfortran -lm -lquadmath
+checking for dummy main to link with Fortran 77 libraries... none
+checking for Fortran 77 name-mangling scheme... lower case, underscore, no extra underscore
+checking for sgemm_... no
+checking for sgemm_ in -lopenblas... no
+checking for sgemm_ in -lf77blas... no
+checking for sgemm_ in -lf77blas... (cached) no
+checking for sgemm_ in -lmkl_rt... no
+checking for sgemm_ in -lblas... yes
+checking for dgemm_ in -ldgemm... no
+checking for sgemm_ in -lcxml... no
+checking for sgemm_ in -ldxml... no
+checking for sgemm_ in -lscs... no
+checking for sgemm_ in -lcomplib.sgimath... no
+checking for sgemm_ in -lblas... (cached) yes
+checking for sgemm_ in -lessl... no
+checking for sgemm_ in -lblas... (cached) yes
+Generic Blas found
+checking if LAPACK is available... 
+checking for cheev_... no
+checking for cheev_ in -llapack... yes
+Library -llapack found
+checking if ARPACK-NG is available... 
+checking for znaupd_ in -larpack... yes
+ARPACK-NG library found
+checking whether the arpack library works... 
+Working ARPACK-NG library found (probably ARPACK-NG or a patched version of ARPACK)
+checking suitesparse/umfpack.h usability... yes
+checking suitesparse/umfpack.h presence... yes
+checking for suitesparse/umfpack.h... yes
+checking for amd_info in -lamd... yes
+checking for umfpack_di_solve in -lumfpack... yes
+checking for pcre-config... pcre-config
+checking for PCRE... yes
+checking for pcre_compile in -lpcre... yes
+checking for regexec in -lpcreposix... yes
+checking pcre.h usability... yes
+checking pcre.h presence... yes
+checking for pcre.h... yes
+checking for curl-config... curl-config
+checking for CURL... yes
+checking for curl_easy_setopt in -lcurl... yes
+checking curl.h usability... no
+checking curl.h presence... no
+checking for curl.h... no
+checking for X... libraries , headers 
+checking for gethostbyname... (cached) yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... yes
+checking for main in -ldl... yes
+checking for header file tcl.h... found in /usr/include/tcl8.5 
+checking if tcl is version 8.4 or later... (8.5) yes
+checking for tcl library tcl8.5... found /usr/lib/x86_64-linux-gnu/libtcl8.5.so using -L/usr/lib/x86_64-linux-gnu -ltcl8.5
+checking for Tcl_DoOneEvent in -ltcl8.5... yes
+checking X11/Xlib.h usability... yes
+checking X11/Xlib.h presence... yes
+checking for X11/Xlib.h... yes
+checking for header file tk.h... found in /usr/include/tcl8.5 
+checking if tk is version 8.4 or later... (8.5) yes
+checking for tk library tk8.5... found /usr/lib/x86_64-linux-gnu/libtk8.5.so using -L/usr/lib/x86_64-linux-gnu -ltk8.5
+checking for Tk_BindEvent in -ltk8.5... yes
+checking for MATIO... yes
+checking matio.h usability... yes
+checking matio.h presence... yes
+checking for matio.h... yes
+checking for Mat_Open in -lmatio... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... (cached) /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... nm
+checking the name lister (nm) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse nm output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for dlopen... yes
+checking whether a program can dlopen itself... yes
+checking whether a statically linked program can dlopen itself... no
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for gfortran option to produce PIC... -fPIC
+checking if gfortran PIC flag -fPIC works... yes
+checking if gfortran static flag -static works... yes
+checking if gfortran supports -c -o file.o... yes
+checking if gfortran supports -c -o file.o... (cached) yes
+checking whether the gfortran linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for glibc backtrace... yes
+checking if the C compiler accepts "-rdynamic"... no
+checking if the C++ compiler accepts "-rdynamic"... no
+checking if the Fortran 77 compiler accepts "-rdynamic"... no
+checking for stdc++ abi::__cxa_demangle... yes
+checking if the C compiler accepts "-rdynamic"... no
+checking if the C++ compiler accepts "-rdynamic"... no
+checking if the Fortran 77 compiler accepts "-rdynamic"... no
+checking for splint... no
+checking for ccache... no
+checking whether g++ accepts -static-libstdc++ -static-libgcc... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating contrib/Makefile
+config.status: creating desktop/images/icons/Makefile
+config.status: creating desktop/Makefile
+config.status: creating modules/helptools/Makefile
+config.status: creating modules/data_structures/Makefile
+config.status: creating modules/differential_equations/Makefile
+config.status: creating modules/optimization/Makefile
+config.status: creating modules/elementary_functions/Makefile
+config.status: creating modules/special_functions/Makefile
+config.status: creating modules/io/Makefile
+config.status: creating modules/completion/Makefile
+config.status: creating modules/history_manager/Makefile
+config.status: creating modules/jvm/Makefile
+config.status: creating modules/commons/Makefile
+config.status: creating modules/sound/Makefile
+config.status: creating modules/statistics/Makefile
+config.status: creating modules/mexlib/Makefile
+config.status: creating modules/sparse/Makefile
+config.status: creating modules/linear_algebra/Makefile
+config.status: creating modules/polynomials/Makefile
+config.status: creating modules/symbolic/Makefile
+config.status: creating modules/signal_processing/Makefile
+config.status: creating modules/arnoldi/Makefile
+config.status: creating modules/interpolation/Makefile
+config.status: creating modules/intersci/Makefile
+config.status: creating modules/localization/Makefile
+config.status: creating modules/cacsd/Makefile
+config.status: creating modules/boolean/Makefile
+config.status: creating modules/integer/Makefile
+config.status: creating modules/double/Makefile
+config.status: creating modules/fileio/Makefile
+config.status: creating modules/spreadsheet/Makefile
+config.status: creating modules/string/Makefile
+config.status: creating modules/time/Makefile
+config.status: creating modules/graphics/Makefile
+config.status: creating modules/graphic_export/Makefile
+config.status: creating modules/graphic_objects/Makefile
+config.status: creating modules/renderer/Makefile
+config.status: creating modules/action_binding/Makefile
+config.status: creating modules/gui/Makefile
+config.status: creating modules/mpi/Makefile
+config.status: creating modules/randlib/Makefile
+config.status: creating modules/tclsci/Makefile
+config.status: creating modules/windows_tools/Makefile
+config.status: creating modules/core/Makefile
+config.status: creating modules/prebuildjava/Makefile
+config.status: creating modules/api_scilab/Makefile
+config.status: creating modules/call_scilab/Makefile
+config.status: creating modules/types/Makefile
+config.status: creating modules/hdf5/Makefile
+config.status: creating modules/fftw/Makefile
+config.status: creating modules/umfpack/Makefile
+config.status: creating modules/scicos/Makefile
+config.status: creating modules/scicos_blocks/Makefile
+config.status: creating modules/functions/Makefile
+config.status: creating modules/dynamic_link/Makefile
+config.status: creating modules/overloading/Makefile
+config.status: creating modules/javasci/Makefile
+config.status: creating modules/m2sci/Makefile
+config.status: creating modules/compatibility_functions/Makefile
+config.status: creating modules/development_tools/Makefile
+config.status: creating modules/output_stream/Makefile
+config.status: creating modules/console/Makefile
+config.status: creating modules/demo_tools/Makefile
+config.status: creating modules/genetic_algorithms/Makefile
+config.status: creating modules/simulated_annealing/Makefile
+config.status: creating modules/parameters/Makefile
+config.status: creating modules/matio/Makefile
+config.status: creating modules/atoms/Makefile
+config.status: creating modules/xcos/Makefile
+config.status: creating modules/scinotes/Makefile
+config.status: creating modules/ui_data/Makefile
+config.status: creating modules/graph/Makefile
+config.status: creating modules/parallel/Makefile
+config.status: creating modules/modules_manager/Makefile
+config.status: creating modules/history_browser/Makefile
+config.status: creating modules/preferences/Makefile
+config.status: creating modules/xml/Makefile
+config.status: creating modules/external_objects/Makefile
+config.status: creating modules/external_objects_java/Makefile
+config.status: creating modules/Makefile
+config.status: creating Makefile
+config.status: creating scilab.pc
+config.status: creating etc/modules.xml
+config.status: creating etc/classpath.xml
+config.status: creating etc/Info.plist
+config.status: creating etc/logging.properties
+config.status: creating scilab.properties
+config.status: creating scilab-lib.properties
+config.status: creating scilab-lib-doc.properties
+config.status: creating modules/helptools/etc/SciDocConf.xml
+config.status: creating modules/core/includes/version.h
+config.status: creating modules/core/includes/stack.h
+config.status: creating modules/atoms/etc/repositories
+config.status: creating modules/atoms/tests/unit_tests/repositories.orig
+config.status: creating modules/core/includes/machine.h
+config.status: modules/core/includes/machine.h is unchanged
+config.status: executing depfiles commands
+config.status: executing po-directories commands
+config.status: executing libtool commands
+
+Scilab is configured as follows. Please verify that this configuration
+matches your expectations.
+
+Host system type : x86_64-unknown-linux-gnu
+
+                  Option                        Value
+-------------------------------------------------------------------------
+Shared libraries.......      --enable-shared=yes
+Static libraries.......      --enable-static=no
+GNU ld.................      --with-gnu-ld=yes
+Enable debug ..........      --enable-debug=no
+Enable debug C.........      --enable-debug-C=no
+Enable debug C++.......      --enable-debug-CXX=no
+Enable debug Java......      --enable-debug-java=
+Enable debug Fortran...      --enable-debug-fortran=no
+Enable stop on warning.      --enable-stop-on-warning=
+
+Compiler Configuration:
+  Intel (--with-intelcompilers) .... =        
+  GNU gcc (--with-gcc) ............. =        
+  GNU Fortran 95 (--with-gfortran) . =        
+
+Options:
+  Do not use TCL/TK (--without-tk) ................. = 
+  TCL include (--with-tcl-include) ................. = 
+  TCL library (--with-tcl-library) ................. = 
+  TK include (--with-tk-include) ................... = 
+  TK library (--with-tk-library) ................... = 
+  Install XML Help (--with-install-help-xml) ....... = 
+  Compilation tests (--enable-compilation-tests) ... = no
+  Make the package relocatable (--enable-relocatable)= no
+  Use FFTW (--without-fftw) ........................ = 
+  Use MATIO (--without-matio) ...................... = 
+
+  Compile with Scilab thirdparties ................. = false
+
+Not using Xcos because of the option --without-gui
+
+Not using code coverage
+
+OpenMP Configuration:
+OpenMP CFLAGS ...... = -fopenmp
+OpenMP CXXFLAGS .... = -fopenmp
+OpenMP LIBS ........ = -lgomp -lstdc++
+OpenMP LDFLAGS ..... = 
+
+FFTW Configuration:
+  FFTW LIBS .......... = -lfftw3
+  FFTW CFLAGS ........ = 
+
+MATIO Configuration:
+  MATIO LIBS .......... = -lmatio -lhdf5 -lz  
+  MATIO CFLAGS ........ =  
+
+UMFPACK Configuration:
+  UMFPACK LIBS ....... = -lumfpack -lamd
+  UMFPACK CFLAGS ..... = 
+  UMFPACK SUITESPARSE  = Yes
+
+BLAS/LAPACK/ATLAS Configuration:
+  BLAS LIBS ............. = -lblas
+  BLAS TYPE ............. = Generic Blas
+  LAPACK LIBS ........... = -llapack
+  LAPACK TYPE ........... = Library -llapack
+  ARPACK LIBS ........... = -larpack
+
+Not using MPI
+
+Gettext/localization configuration:
+  xgettext ............... = /usr/bin/xgettext
+  msgfmt  ................ = /usr/bin/msgfmt
+  msgfmt_opts ............ = 
+  msgcat  ................ = /usr/bin/msgcat
+
+No documentation generated
+
+Java Configuration:
+  JAVA disabled
+
+Java dependencies:
+
+
+Code quality (optional):
+  Checkstyle .......... = 
+  Commons-beanutils ... = 
+  Antlr ............... = 
+  Junit4 .............. = 
+  Cobertura ........... = 
+  splint .............. = no
+
+TCL/TK configuration:
+  TK_INC_PATH ........ = -I/usr/include/tcl8.5
+  TCL_INC_PATH ....... = -I/usr/include/tcl8.5
+  TCLTK_LIBS ......... =  -L/usr/lib/x86_64-linux-gnu -ltk8.5   -L/usr/lib/x86_64-linux-gnu -ltcl8.5  -ldl
+  TCL_SERIAL_VERSION . = 8.5.13
+  TK_SERIAL_VERSION .. = 8.5.11
+
+XML configuration:
+  XML_FLAGS .......... = -I/usr/include/libxml2
+  XML_LIBS ........... = -lxml2
+  XML_VERSION ........ = 2.9.0
+
+HDF5 configuration:
+  HDF5 CFLAGS ......... = 
+  HDF5 LIBS ........... = -lhdf5 -lhdf5_hl
+
+PCRE configuration:
+  PCRE_CFLAGS ........ =  
+  PCRE_LIBS .......... = -lpcreposix -lpcre
+  PCRE_VERSION ....... = 8.31
+
+CURL configuration:
+  CURL_CFLAGS ........ =  
+  CURL_LIBS .......... = -L/usr/lib/x86_64-linux-gnu -lcurl
+  CURL_VERSION ....... = libcurl 7.29.0
+
+SWIG Configuration:
+  SWIG generation disabled
+
+GIWS Configuration:
+  GIWS generation disabled
+
+Libtool config:
+  objext .............. = o
+  libext (static) ..... = a
+  shrext_cmds ......... = .so
+  exeext .............. = 
+
+Compilation paths:
+  srcdir .............. = .
+  srcdir_full ......... = /home/kartik/softwares/scilab/scilab_gsoc/scilab/scilab
+  builddir ............ = /home/kartik/softwares/scilab/scilab_gsoc/scilab/scilab
+
+Platform information:
+  host ........... = x86_64-unknown-linux-gnu
+  host_cpu ....... = x86_64
+  host_vendor .... = unknown
+  host_os ... .... = linux-gnu
+  hostname ....... = kartik-HP-Pavilion-g6-Notebook-PC
+  CPU 64 bits .... = true
+
+Options used to compile and link:
+  prefix ......... = /usr/local
+  localedir ...... = ${datarootdir}/locale
+  VERSION ........ = 5
+  CC ............. = gcc
+  CFLAGS ......... = -g -O2
+  SCI_CFLAGS ..... = -D_LARGEFILE64_SOURCE -DNDEBUG -m64 -fno-stack-protector
+  DEFS ........... = -DHAVE_CONFIG_H
+  LD ............. = /usr/bin/ld -m elf_x86_64
+  LDFLAGS ........ =  -Wl,--no-as-needed
+  SCI_LDFLAGS .... = 
+  LIBS ........... = -lpthread -ldl -lcurses  -lm
+  CXX ............ = g++
+  CXXFLAGS ....... = -g -O2
+  SCI_CXXFLAGS ... = -DNDEBUG -fno-stack-protector
+  F77 ............ = gfortran
+  FFLAGS ......... = -g -O2
+  SCI_FFLAGS ..... = -DNDEBUG -m64 -fPIC
+  F77_LDFLAGS .... = 
+  FLIBS...... .... =  -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. -lpthread -ldl -lcurses -lgfortran -lm -lquadmath
+  TERMCAP_LIB .... = no
+
