@@ -26519,7 +26519,6 @@ if test -n "$PKG_CONFIG"; then
   $as_echo "$as_me:${as_lineno-$LINENO}: \$? = $ac_status" >&5
   test $ac_status = 0; }; then
   pkg_cv_ARCHIVE_CFLAGS=`$PKG_CONFIG --cflags "libarchive >= $LIBARCHIVE_REQUIRED_VERSION" 2>/dev/null`
-  pkg_cv_ARCHIVE_CFLAGS='/usr/include'
 else
   pkg_failed=yes
 fi
