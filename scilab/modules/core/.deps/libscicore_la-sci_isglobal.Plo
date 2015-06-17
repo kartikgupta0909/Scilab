@@ -1,0 +1,7 @@
+libscicore_la-sci_isglobal.lo: sci_gateway/c/sci_isglobal.c \
+ ../../modules/core/includes/gw_core.h \
+ ../../modules/core/includes/machine.h
+
+../../modules/core/includes/gw_core.h:
+
+../../modules/core/includes/machine.h:

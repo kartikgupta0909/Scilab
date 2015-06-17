@@ -1,0 +1,4 @@
+src/c/libsciscicos_blocks_algo_la-zcross2.lo: src/c/zcross2.c \
+ includes/dynlib_scicos_blocks.h
+
+includes/dynlib_scicos_blocks.h:

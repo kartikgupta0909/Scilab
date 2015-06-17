@@ -1,0 +1,16 @@
+src/c/libscioutput_stream_algo_la-erro.lo: src/c/erro.c includes/erro.h \
+ ../../modules/core/includes/machine.h includes/dynlib_output_stream.h \
+ includes/Scierror.h /usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdarg.h \
+ includes/do_error_number.h
+
+includes/erro.h:
+
+../../modules/core/includes/machine.h:
+
+includes/dynlib_output_stream.h:
+
+includes/Scierror.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdarg.h:
+
+includes/do_error_number.h:

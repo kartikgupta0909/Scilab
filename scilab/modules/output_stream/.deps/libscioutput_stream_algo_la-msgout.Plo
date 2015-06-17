@@ -1,0 +1,16 @@
+libscioutput_stream_algo_la-msgout.lo: src/c/msgout.c src/c/msgout.h \
+ ../../modules/core/includes/machine.h src/c/msgstore.h \
+ includes/dynlib_output_stream.h includes/basout.h \
+ includes/dynlib_output_stream.h
+
+src/c/msgout.h:
+
+../../modules/core/includes/machine.h:
+
+src/c/msgstore.h:
+
+includes/dynlib_output_stream.h:
+
+includes/basout.h:
+
+includes/dynlib_output_stream.h:

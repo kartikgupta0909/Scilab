@@ -1,0 +1,9 @@
+sci_gateway/c/libscicacsd_la-sci_gschur.lo: sci_gateway/c/sci_gschur.c \
+ ../../modules/core/includes/machine.h includes/gw_cacsd0.h \
+ includes/dynlib_cacsd.h
+
+../../modules/core/includes/machine.h:
+
+includes/gw_cacsd0.h:
+
+includes/dynlib_cacsd.h:

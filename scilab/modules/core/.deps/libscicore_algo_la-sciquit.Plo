@@ -1,0 +1,52 @@
+libscicore_algo_la-sciquit.lo: src/c/sciquit.c \
+ ../../modules/core/includes/sciquit.h \
+ ../../modules/core/includes/machine.h src/c/TerminateCore.h \
+ ../../modules/core/includes/BOOL.h \
+ src/c/../../../graphics/includes/TerminateGraphics.h \
+ src/c/../../../graphics/includes/dynlib_graphics.h \
+ src/c/dynamic_tclsci.h ../../modules/core/includes/machine.h \
+ src/c/../../../gui/includes/TerminateGui.h \
+ src/c/../../../gui/includes/dynlib_gui.h \
+ src/c/../../../jvm/includes/TerminateJVM.h \
+ src/c/../../../jvm/includes/dynlib_jvm.h \
+ ../../modules/preferences/includes/getScilabPreference.h \
+ ../../modules/preferences/includes/dynlib_preferences_scilab.h \
+ ../../modules/core/includes/scilabmode.h \
+ ../../modules/core/includes/BOOL.h src/c/saveCWDInPreferences.h \
+ ../../modules/console/includes/initConsoleMode.h
+
+../../modules/core/includes/sciquit.h:
+
+../../modules/core/includes/machine.h:
+
+src/c/TerminateCore.h:
+
+../../modules/core/includes/BOOL.h:
+
+src/c/../../../graphics/includes/TerminateGraphics.h:
+
+src/c/../../../graphics/includes/dynlib_graphics.h:
+
+src/c/dynamic_tclsci.h:
+
+../../modules/core/includes/machine.h:
+
+src/c/../../../gui/includes/TerminateGui.h:
+
+src/c/../../../gui/includes/dynlib_gui.h:
+
+src/c/../../../jvm/includes/TerminateJVM.h:
+
+src/c/../../../jvm/includes/dynlib_jvm.h:
+
+../../modules/preferences/includes/getScilabPreference.h:
+
+../../modules/preferences/includes/dynlib_preferences_scilab.h:
+
+../../modules/core/includes/scilabmode.h:
+
+../../modules/core/includes/BOOL.h:
+
+src/c/saveCWDInPreferences.h:
+
+../../modules/console/includes/initConsoleMode.h:

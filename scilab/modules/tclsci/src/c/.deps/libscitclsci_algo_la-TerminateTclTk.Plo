@@ -1,0 +1,11 @@
+src/c/libscitclsci_algo_la-TerminateTclTk.lo: src/c/TerminateTclTk.c \
+ includes/TerminateTclTk.h includes/dynlib_tclsci.h \
+ ../../modules/core/includes/BOOL.h src/c/InitTclTk.h
+
+includes/TerminateTclTk.h:
+
+includes/dynlib_tclsci.h:
+
+../../modules/core/includes/BOOL.h:
+
+src/c/InitTclTk.h:

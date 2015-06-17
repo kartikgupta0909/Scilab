@@ -1,0 +1,4 @@
+libsciscicos_blocks_algo_la-scicos_evalhermite.lo: \
+ src/c/scicos_evalhermite.c src/c/scicos_evalhermite.h
+
+src/c/scicos_evalhermite.h:

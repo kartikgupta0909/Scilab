@@ -1,0 +1,6 @@
+sci_gateway/c/libsciboolean_la-sci_bool2s.lo: sci_gateway/c/sci_bool2s.c \
+ includes/gw_boolean.h ../../modules/core/includes/machine.h
+
+includes/gw_boolean.h:
+
+../../modules/core/includes/machine.h:

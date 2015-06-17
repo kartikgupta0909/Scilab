@@ -1,0 +1,16 @@
+libscicore_algo_la-mode_exec.lo: src/c/mode_exec.c \
+ ../../modules/core/includes/mode_exec.h \
+ ../../modules/core/includes/BOOL.h \
+ ../../modules/core/includes/stack-def.h \
+ ../../modules/core/includes/machine.h \
+ ../../modules/core/includes/machine.h
+
+../../modules/core/includes/mode_exec.h:
+
+../../modules/core/includes/BOOL.h:
+
+../../modules/core/includes/stack-def.h:
+
+../../modules/core/includes/machine.h:
+
+../../modules/core/includes/machine.h:

@@ -1,0 +1,4 @@
+libsciscicos_blocks_algo_la-scicos_indexfinder.lo: \
+ src/c/scicos_indexfinder.c src/c/scicos_indexfinder.h
+
+src/c/scicos_indexfinder.h:

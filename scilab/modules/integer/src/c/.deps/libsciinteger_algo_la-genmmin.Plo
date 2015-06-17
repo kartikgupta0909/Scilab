@@ -1,0 +1,11 @@
+src/c/libsciinteger_algo_la-genmmin.lo: src/c/genmmin.c \
+ includes/genmmin.h includes/dynlib_integer.h \
+ ../../modules/core/includes/machine.h includes/def.h
+
+includes/genmmin.h:
+
+includes/dynlib_integer.h:
+
+../../modules/core/includes/machine.h:
+
+includes/def.h:

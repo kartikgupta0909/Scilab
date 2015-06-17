@@ -1,0 +1,11 @@
+libsciinteger_algo_la-gendot.lo: src/c/gendot.c includes/gendot.h \
+ includes/dynlib_integer.h ../../modules/core/includes/machine.h \
+ includes/def.h
+
+includes/gendot.h:
+
+includes/dynlib_integer.h:
+
+../../modules/core/includes/machine.h:
+
+includes/def.h:

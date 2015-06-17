@@ -1,0 +1,11 @@
+src/c/libsciinteger_algo_la-genscal.lo: src/c/genscal.c \
+ includes/genscal.h includes/dynlib_integer.h \
+ ../../modules/core/includes/machine.h includes/def.h
+
+includes/genscal.h:
+
+includes/dynlib_integer.h:
+
+../../modules/core/includes/machine.h:
+
+includes/def.h:

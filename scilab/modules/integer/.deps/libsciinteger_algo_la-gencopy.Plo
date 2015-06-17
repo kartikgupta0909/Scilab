@@ -1,0 +1,11 @@
+libsciinteger_algo_la-gencopy.lo: src/c/gencopy.c includes/gencopy.h \
+ includes/dynlib_integer.h ../../modules/core/includes/machine.h \
+ includes/def.h
+
+includes/gencopy.h:
+
+includes/dynlib_integer.h:
+
+../../modules/core/includes/machine.h:
+
+includes/def.h:

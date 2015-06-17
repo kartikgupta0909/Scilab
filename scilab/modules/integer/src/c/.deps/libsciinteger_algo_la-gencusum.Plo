@@ -1,0 +1,11 @@
+src/c/libsciinteger_algo_la-gencusum.lo: src/c/gencusum.c \
+ includes/gencusum.h includes/dynlib_integer.h \
+ ../../modules/core/includes/machine.h includes/def.h
+
+includes/gencusum.h:
+
+includes/dynlib_integer.h:
+
+../../modules/core/includes/machine.h:
+
+includes/def.h:

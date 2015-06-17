@@ -1,0 +1,13 @@
+src/c/libsciinteger_algo_la-genmsum.lo: src/c/genmsum.c includes/gensum.h \
+ ../../modules/core/includes/machine.h includes/dynlib_integer.h \
+ includes/def.h includes/genmsum.h
+
+includes/gensum.h:
+
+../../modules/core/includes/machine.h:
+
+includes/dynlib_integer.h:
+
+includes/def.h:
+
+includes/genmsum.h:

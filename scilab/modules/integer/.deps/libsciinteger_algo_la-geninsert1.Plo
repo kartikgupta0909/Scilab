@@ -1,0 +1,11 @@
+libsciinteger_algo_la-geninsert1.lo: src/c/geninsert1.c \
+ includes/geninsert1.h includes/dynlib_integer.h \
+ ../../modules/core/includes/machine.h includes/def.h
+
+includes/geninsert1.h:
+
+includes/dynlib_integer.h:
+
+../../modules/core/includes/machine.h:
+
+includes/def.h:

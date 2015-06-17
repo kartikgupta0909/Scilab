@@ -1,0 +1,4 @@
+src/cpp/libsciscicos_blocks_cli_la-HelpersCLI.lo: src/cpp/HelpersCLI.cpp \
+ src/cpp/Helpers.hxx
+
+src/cpp/Helpers.hxx:

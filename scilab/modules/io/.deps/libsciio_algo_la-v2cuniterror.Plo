@@ -1,0 +1,74 @@
+libsciio_algo_la-v2cuniterror.lo: src/c/v2cuniterror.c \
+ ../../modules/localization/includes/localization.h \
+ ../../modules/core/includes/machine.h /usr/include/libintl.h \
+ /usr/include/features.h /usr/include/stdc-predef.h \
+ /usr/include/x86_64-linux-gnu/bits/predefs.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/include/stddef.h /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/xlocale.h \
+ src/c/v2cuniterror.h includes/dynlib_io.h \
+ ../../modules/output_stream/includes/Scierror.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdarg.h \
+ ../../modules/output_stream/includes/do_error_number.h \
+ ../../modules/fileio/includes/FileExist.h /usr/include/wchar.h \
+ /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+ ../../modules/fileio/includes/dynlib_fileio.h \
+ ../../modules/core/includes/BOOL.h ../../modules/fileio/includes/isdir.h
+
+../../modules/localization/includes/localization.h:
+
+../../modules/core/includes/machine.h:
+
+/usr/include/libintl.h:
+
+/usr/include/features.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/bits/predefs.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include/stddef.h:
+
+/usr/include/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/xlocale.h:
+
+src/c/v2cuniterror.h:
+
+includes/dynlib_io.h:
+
+../../modules/output_stream/includes/Scierror.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdarg.h:
+
+../../modules/output_stream/includes/do_error_number.h:
+
+../../modules/fileio/includes/FileExist.h:
+
+/usr/include/wchar.h:
+
+/usr/include/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+
+../../modules/fileio/includes/dynlib_fileio.h:
+
+../../modules/core/includes/BOOL.h:
+
+../../modules/fileio/includes/isdir.h:

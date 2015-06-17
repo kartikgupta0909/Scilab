@@ -1,0 +1,6 @@
+src/c/libscielementary_functions_algo_la-qsort-int.lo: src/c/qsort-int.c \
+ src/c/qsort.h src/c/qsort-int.h
+
+src/c/qsort.h:
+
+src/c/qsort-int.h:

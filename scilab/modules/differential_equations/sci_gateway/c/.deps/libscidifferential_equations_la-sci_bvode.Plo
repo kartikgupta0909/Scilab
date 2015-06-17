@@ -1,0 +1,10 @@
+sci_gateway/c/libscidifferential_equations_la-sci_bvode.lo: \
+ sci_gateway/c/sci_bvode.c includes/gw_differential_equations1.h \
+ includes/dynlib_differential_equations.h \
+ ../../modules/core/includes/machine.h
+
+includes/gw_differential_equations1.h:
+
+includes/dynlib_differential_equations.h:
+
+../../modules/core/includes/machine.h:

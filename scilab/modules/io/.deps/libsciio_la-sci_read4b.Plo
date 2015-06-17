@@ -1,0 +1,8 @@
+libsciio_la-sci_read4b.lo: sci_gateway/c/sci_read4b.c includes/gw_io.h \
+ ../../modules/core/includes/machine.h includes/dynlib_io.h
+
+includes/gw_io.h:
+
+../../modules/core/includes/machine.h:
+
+includes/dynlib_io.h:

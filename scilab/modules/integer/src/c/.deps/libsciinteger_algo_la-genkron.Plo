@@ -1,0 +1,11 @@
+src/c/libsciinteger_algo_la-genkron.lo: src/c/genkron.c \
+ includes/genkron.h includes/dynlib_integer.h \
+ ../../modules/core/includes/machine.h includes/def.h
+
+includes/genkron.h:
+
+includes/dynlib_integer.h:
+
+../../modules/core/includes/machine.h:
+
+includes/def.h:

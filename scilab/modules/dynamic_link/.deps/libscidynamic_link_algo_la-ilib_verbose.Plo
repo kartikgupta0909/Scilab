@@ -1,0 +1,11 @@
+libscidynamic_link_algo_la-ilib_verbose.lo: src/c/ilib_verbose.c \
+ includes/ilib_verbose.h includes/dynlib_dynamic_link.h \
+ ../../modules/core/includes/BOOL.h ../../modules/core/includes/machine.h
+
+includes/ilib_verbose.h:
+
+includes/dynlib_dynamic_link.h:
+
+../../modules/core/includes/BOOL.h:
+
+../../modules/core/includes/machine.h:

@@ -1,0 +1,7 @@
+libscicore_la-sci_exists.lo: sci_gateway/c/sci_exists.c \
+ ../../modules/core/includes/gw_core.h \
+ ../../modules/core/includes/machine.h
+
+../../modules/core/includes/gw_core.h:
+
+../../modules/core/includes/machine.h:

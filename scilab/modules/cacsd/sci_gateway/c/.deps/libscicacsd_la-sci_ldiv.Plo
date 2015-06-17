@@ -1,0 +1,9 @@
+sci_gateway/c/libscicacsd_la-sci_ldiv.lo: sci_gateway/c/sci_ldiv.c \
+ ../../modules/core/includes/machine.h includes/gw_cacsd3.h \
+ includes/dynlib_cacsd.h
+
+../../modules/core/includes/machine.h:
+
+includes/gw_cacsd3.h:
+
+includes/dynlib_cacsd.h:

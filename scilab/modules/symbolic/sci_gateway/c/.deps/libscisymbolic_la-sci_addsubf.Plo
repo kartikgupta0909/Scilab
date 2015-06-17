@@ -1,0 +1,9 @@
+sci_gateway/c/libscisymbolic_la-sci_addsubf.lo: \
+ sci_gateway/c/sci_addsubf.c includes/gw_symbolic.h \
+ includes/dynlib_symbolic.h ../../modules/core/includes/machine.h
+
+includes/gw_symbolic.h:
+
+includes/dynlib_symbolic.h:
+
+../../modules/core/includes/machine.h:

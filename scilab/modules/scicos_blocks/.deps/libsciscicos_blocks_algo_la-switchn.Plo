@@ -1,0 +1,4 @@
+libsciscicos_blocks_algo_la-switchn.lo: src/c/switchn.c \
+ includes/dynlib_scicos_blocks.h
+
+includes/dynlib_scicos_blocks.h:

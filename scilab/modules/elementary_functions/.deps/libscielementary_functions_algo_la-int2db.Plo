@@ -1,0 +1,9 @@
+libscielementary_functions_algo_la-int2db.lo: src/c/int2db.c \
+ includes/int2db.h ../../modules/core/includes/machine.h \
+ includes/dynlib_elementary_functions.h
+
+includes/int2db.h:
+
+../../modules/core/includes/machine.h:
+
+includes/dynlib_elementary_functions.h:

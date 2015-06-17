@@ -1,0 +1,7 @@
+sci_gateway/c/libscicore_la-sci_clearglobal.lo: \
+ sci_gateway/c/sci_clearglobal.c ../../modules/core/includes/gw_core.h \
+ ../../modules/core/includes/machine.h
+
+../../modules/core/includes/gw_core.h:
+
+../../modules/core/includes/machine.h:

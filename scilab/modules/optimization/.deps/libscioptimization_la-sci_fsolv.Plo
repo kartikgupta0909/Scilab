@@ -1,0 +1,9 @@
+libscioptimization_la-sci_fsolv.lo: sci_gateway/c/sci_fsolv.c \
+ includes/gw_optimization.h includes/dynlib_optimization.h \
+ ../../modules/core/includes/machine.h
+
+includes/gw_optimization.h:
+
+includes/dynlib_optimization.h:
+
+../../modules/core/includes/machine.h:

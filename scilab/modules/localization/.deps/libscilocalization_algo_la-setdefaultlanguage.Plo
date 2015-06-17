@@ -1,0 +1,2 @@
+libscilocalization_algo_la-setdefaultlanguage.lo: \
+ src/c/setdefaultlanguage.c

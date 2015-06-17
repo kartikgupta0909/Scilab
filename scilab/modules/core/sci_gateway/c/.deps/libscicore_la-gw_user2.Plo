@@ -1,0 +1,7 @@
+sci_gateway/c/libscicore_la-gw_user2.lo: sci_gateway/c/gw_user2.c \
+ ../../modules/core/includes/gw_user2.h \
+ ../../modules/core/includes/machine.h
+
+../../modules/core/includes/gw_user2.h:
+
+../../modules/core/includes/machine.h:

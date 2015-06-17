@@ -1,0 +1,13 @@
+src/c/libscioutput_stream_algo_la-error.lo: src/c/error.c \
+ includes/do_error_number.h ../../modules/core/includes/machine.h \
+ src/c/errorTable.h includes/lasterror.h includes/dynlib_output_stream.h
+
+includes/do_error_number.h:
+
+../../modules/core/includes/machine.h:
+
+src/c/errorTable.h:
+
+includes/lasterror.h:
+
+includes/dynlib_output_stream.h:

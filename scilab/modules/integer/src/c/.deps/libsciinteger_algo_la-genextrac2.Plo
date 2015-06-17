@@ -1,0 +1,11 @@
+src/c/libsciinteger_algo_la-genextrac2.lo: src/c/genextrac2.c \
+ includes/genextrac2.h includes/dynlib_integer.h \
+ ../../modules/core/includes/machine.h includes/def.h
+
+includes/genextrac2.h:
+
+includes/dynlib_integer.h:
+
+../../modules/core/includes/machine.h:
+
+includes/def.h:

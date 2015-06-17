@@ -1,0 +1,11 @@
+src/c/libscistring_algo_la-InitializeString.lo: src/c/InitializeString.c \
+ includes/InitializeString.h ../../modules/core/includes/BOOL.h \
+ includes/dynlib_string.h src/c/setScilabCharactersCodes.h
+
+includes/InitializeString.h:
+
+../../modules/core/includes/BOOL.h:
+
+includes/dynlib_string.h:
+
+src/c/setScilabCharactersCodes.h:

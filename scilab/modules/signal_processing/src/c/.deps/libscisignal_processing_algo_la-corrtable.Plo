@@ -1,0 +1,13 @@
+src/c/libscisignal_processing_algo_la-corrtable.lo: src/c/corrtable.c \
+ ../../modules/dynamic_link/includes/GetFunctionByName.h \
+ ../../modules/dynamic_link/includes/dynlib_dynamic_link.h \
+ includes/dynlib_signal_processing.h \
+ ../../modules/core/includes/machine.h
+
+../../modules/dynamic_link/includes/GetFunctionByName.h:
+
+../../modules/dynamic_link/includes/dynlib_dynamic_link.h:
+
+includes/dynlib_signal_processing.h:
+
+../../modules/core/includes/machine.h:

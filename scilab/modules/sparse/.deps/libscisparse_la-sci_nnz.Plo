@@ -1,0 +1,8 @@
+libscisparse_la-sci_nnz.lo: sci_gateway/c/sci_nnz.c includes/gw_sparse.h \
+ ../../modules/core/includes/machine.h includes/dynlib_sparse.h
+
+includes/gw_sparse.h:
+
+../../modules/core/includes/machine.h:
+
+includes/dynlib_sparse.h:

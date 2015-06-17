@@ -1,0 +1,9 @@
+sci_gateway/c/libsciscicos_cli_la-sci_sctree.lo: \
+ sci_gateway/c/sci_sctree.c ../../modules/core/includes/machine.h \
+ includes/gw_scicos.h includes/dynlib_scicos.h
+
+../../modules/core/includes/machine.h:
+
+includes/gw_scicos.h:
+
+includes/dynlib_scicos.h:

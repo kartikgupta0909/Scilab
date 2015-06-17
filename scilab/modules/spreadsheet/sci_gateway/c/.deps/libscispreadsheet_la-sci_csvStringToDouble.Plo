@@ -1,0 +1,304 @@
+sci_gateway/c/libscispreadsheet_la-sci_csvStringToDouble.lo: \
+ sci_gateway/c/sci_csvStringToDouble.c /usr/include/string.h \
+ /usr/include/features.h /usr/include/stdc-predef.h \
+ /usr/include/x86_64-linux-gnu/bits/predefs.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/include/stddef.h \
+ /usr/include/xlocale.h /usr/include/x86_64-linux-gnu/bits/string.h \
+ /usr/include/x86_64-linux-gnu/bits/string2.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/string3.h \
+ ../../modules/api_scilab/includes/api_scilab.h \
+ ../../modules/core/includes/stack-c.h \
+ ../../modules/core/includes/core_math.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/huge_val.h \
+ /usr/include/x86_64-linux-gnu/bits/huge_valf.h \
+ /usr/include/x86_64-linux-gnu/bits/huge_vall.h \
+ /usr/include/x86_64-linux-gnu/bits/inf.h \
+ /usr/include/x86_64-linux-gnu/bits/nan.h \
+ /usr/include/x86_64-linux-gnu/bits/mathdef.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathinline.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+ ../../modules/core/includes/stack-def.h \
+ ../../modules/core/includes/machine.h \
+ ../../modules/core/includes/stackTypeVariable.h \
+ ../../modules/core/includes/BOOL.h \
+ ../../modules/core/includes/doublecomplex.h \
+ ../../modules/core/includes/stack1.h \
+ ../../modules/core/includes/scisparse.h \
+ ../../modules/core/includes/stack2.h \
+ ../../modules/core/includes/stack3.h \
+ ../../modules/core/includes/stack-optional.h \
+ ../../modules/core/includes/sci_types.h \
+ ../../modules/api_scilab/includes/api_common.h \
+ ../../modules/api_scilab/includes/api_scilab.h \
+ ../../modules/api_scilab/includes/api_double.h \
+ ../../modules/core/includes/doublecomplex.h \
+ ../../modules/api_scilab/includes/api_string.h /usr/include/wchar.h \
+ /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+ ../../modules/api_scilab/includes/api_int.h \
+ ../../modules/api_scilab/includes/api_poly.h \
+ ../../modules/api_scilab/includes/api_sparse.h \
+ ../../modules/api_scilab/includes/api_boolean.h \
+ ../../modules/api_scilab/includes/api_boolean_sparse.h \
+ ../../modules/api_scilab/includes/api_pointer.h \
+ ../../modules/api_scilab/includes/api_list.h \
+ ../../modules/api_scilab/includes/api_error.h \
+ ../../modules/api_scilab/includes/api_handle.h \
+ ../../modules/api_scilab/includes/api_optional.h \
+ ../../modules/core/includes/stack-optional.h \
+ ../../modules/api_scilab/includes/api_hypermat.h \
+ ../../modules/core/includes/core_math.h \
+ ../../modules/core/includes/sci_types.h \
+ ../../modules/output_stream/includes/Scierror.h \
+ ../../modules/output_stream/includes/do_error_number.h \
+ ../../modules/core/includes/machine.h \
+ ../../modules/core/includes/MALLOC.h \
+ ../../modules/core/includes/sci_mem_alloc.h \
+ ../../modules/localization/includes/localization.h \
+ /usr/include/libintl.h /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h \
+ ../../modules/core/includes/freeArrayOfString.h \
+ ../../modules/string/includes/stringToComplex.h \
+ ../../modules/string/includes/complex_array.h \
+ ../../modules/string/includes/dynlib_string.h \
+ ../../modules/core/includes/BOOL.h src/c/csvDefault.h \
+ sci_gateway/c/gw_csv_helpers.h \
+ ../../modules/string/includes/complex_array.h
+
+/usr/include/string.h:
+
+/usr/include/features.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/bits/predefs.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/x86_64-linux-gnu/bits/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/string2.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/string3.h:
+
+../../modules/api_scilab/includes/api_scilab.h:
+
+../../modules/core/includes/stack-c.h:
+
+../../modules/core/includes/core_math.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/math.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_val.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_valf.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_vall.h:
+
+/usr/include/x86_64-linux-gnu/bits/inf.h:
+
+/usr/include/x86_64-linux-gnu/bits/nan.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathdef.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathinline.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
+../../modules/core/includes/stack-def.h:
+
+../../modules/core/includes/machine.h:
+
+../../modules/core/includes/stackTypeVariable.h:
+
+../../modules/core/includes/BOOL.h:
+
+../../modules/core/includes/doublecomplex.h:
+
+../../modules/core/includes/stack1.h:
+
+../../modules/core/includes/scisparse.h:
+
+../../modules/core/includes/stack2.h:
+
+../../modules/core/includes/stack3.h:
+
+../../modules/core/includes/stack-optional.h:
+
+../../modules/core/includes/sci_types.h:
+
+../../modules/api_scilab/includes/api_common.h:
+
+../../modules/api_scilab/includes/api_scilab.h:
+
+../../modules/api_scilab/includes/api_double.h:
+
+../../modules/core/includes/doublecomplex.h:
+
+../../modules/api_scilab/includes/api_string.h:
+
+/usr/include/wchar.h:
+
+/usr/include/stdio.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+
+../../modules/api_scilab/includes/api_int.h:
+
+../../modules/api_scilab/includes/api_poly.h:
+
+../../modules/api_scilab/includes/api_sparse.h:
+
+../../modules/api_scilab/includes/api_boolean.h:
+
+../../modules/api_scilab/includes/api_boolean_sparse.h:
+
+../../modules/api_scilab/includes/api_pointer.h:
+
+../../modules/api_scilab/includes/api_list.h:
+
+../../modules/api_scilab/includes/api_error.h:
+
+../../modules/api_scilab/includes/api_handle.h:
+
+../../modules/api_scilab/includes/api_optional.h:
+
+../../modules/core/includes/stack-optional.h:
+
+../../modules/api_scilab/includes/api_hypermat.h:
+
+../../modules/core/includes/core_math.h:
+
+../../modules/core/includes/sci_types.h:
+
+../../modules/output_stream/includes/Scierror.h:
+
+../../modules/output_stream/includes/do_error_number.h:
+
+../../modules/core/includes/machine.h:
+
+../../modules/core/includes/MALLOC.h:
+
+../../modules/core/includes/sci_mem_alloc.h:
+
+../../modules/localization/includes/localization.h:
+
+/usr/include/libintl.h:
+
+/usr/include/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+../../modules/core/includes/freeArrayOfString.h:
+
+../../modules/string/includes/stringToComplex.h:
+
+../../modules/string/includes/complex_array.h:
+
+../../modules/string/includes/dynlib_string.h:
+
+../../modules/core/includes/BOOL.h:
+
+src/c/csvDefault.h:
+
+sci_gateway/c/gw_csv_helpers.h:
+
+../../modules/string/includes/complex_array.h:

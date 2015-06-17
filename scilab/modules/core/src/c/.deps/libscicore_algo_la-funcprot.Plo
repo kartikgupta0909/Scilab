@@ -1,0 +1,8 @@
+src/c/libscicore_algo_la-funcprot.lo: src/c/funcprot.c src/c/funcprot.h \
+ ../../modules/core/includes/machine.h ../../modules/core/includes/BOOL.h
+
+src/c/funcprot.h:
+
+../../modules/core/includes/machine.h:
+
+../../modules/core/includes/BOOL.h:

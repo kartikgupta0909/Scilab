@@ -1,0 +1,9 @@
+libscioptimization_la-sci_readmps.lo: sci_gateway/c/sci_readmps.c \
+ includes/gw_optimization.h includes/dynlib_optimization.h \
+ ../../modules/core/includes/machine.h
+
+includes/gw_optimization.h:
+
+includes/dynlib_optimization.h:
+
+../../modules/core/includes/machine.h:

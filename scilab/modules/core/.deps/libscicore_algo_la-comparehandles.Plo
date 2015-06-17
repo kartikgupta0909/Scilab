@@ -1,0 +1,4 @@
+libscicore_algo_la-comparehandles.lo: src/c/comparehandles.c \
+ ../../modules/core/includes/machine.h
+
+../../modules/core/includes/machine.h:

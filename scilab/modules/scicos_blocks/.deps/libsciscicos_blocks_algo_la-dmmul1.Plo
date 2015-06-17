@@ -1,0 +1,6 @@
+libsciscicos_blocks_algo_la-dmmul1.lo: src/c/dmmul1.c \
+ ../../modules/core/includes/machine.h includes/dynlib_scicos_blocks.h
+
+../../modules/core/includes/machine.h:
+
+includes/dynlib_scicos_blocks.h:

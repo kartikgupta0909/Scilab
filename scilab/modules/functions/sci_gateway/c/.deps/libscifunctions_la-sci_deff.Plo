@@ -1,0 +1,9 @@
+sci_gateway/c/libscifunctions_la-sci_deff.lo: sci_gateway/c/sci_deff.c \
+ includes/gw_functions.h includes/dynlib_functions.h \
+ ../../modules/core/includes/machine.h
+
+includes/gw_functions.h:
+
+includes/dynlib_functions.h:
+
+../../modules/core/includes/machine.h:

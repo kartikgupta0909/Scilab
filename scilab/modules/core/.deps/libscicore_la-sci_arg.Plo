@@ -1,0 +1,7 @@
+libscicore_la-sci_arg.lo: sci_gateway/c/sci_arg.c \
+ ../../modules/core/includes/gw_core.h \
+ ../../modules/core/includes/machine.h
+
+../../modules/core/includes/gw_core.h:
+
+../../modules/core/includes/machine.h:

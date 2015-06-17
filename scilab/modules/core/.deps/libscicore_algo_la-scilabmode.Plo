@@ -1,0 +1,9 @@
+libscicore_algo_la-scilabmode.lo: src/c/scilabmode.c \
+ ../../modules/core/includes/scilabmode.h \
+ ../../modules/core/includes/machine.h ../../modules/core/includes/BOOL.h
+
+../../modules/core/includes/scilabmode.h:
+
+../../modules/core/includes/machine.h:
+
+../../modules/core/includes/BOOL.h:

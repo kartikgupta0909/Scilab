@@ -1,0 +1,11 @@
+libsciinteger_algo_la-genmtran.lo: src/c/genmtran.c includes/genmtran.h \
+ includes/dynlib_integer.h ../../modules/core/includes/machine.h \
+ includes/def.h
+
+includes/genmtran.h:
+
+includes/dynlib_integer.h:
+
+../../modules/core/includes/machine.h:
+
+includes/def.h:

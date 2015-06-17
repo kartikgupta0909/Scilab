@@ -1,0 +1,11 @@
+src/c/libsciumfpack_algo_la-with_umfpack.lo: src/c/with_umfpack.c \
+ includes/with_umfpack.h ../../modules/core/includes/machine.h \
+ includes/dynlib_umfpack.h ../../modules/core/includes/BOOL.h
+
+includes/with_umfpack.h:
+
+../../modules/core/includes/machine.h:
+
+includes/dynlib_umfpack.h:
+
+../../modules/core/includes/BOOL.h:

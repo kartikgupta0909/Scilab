@@ -1,0 +1,14 @@
+src/c/libscioutput_stream_algo_la-errmds.lo: src/c/errmds.c \
+ includes/errmds.h ../../modules/core/includes/machine.h \
+ includes/dynlib_output_stream.h ../../modules/core/includes/stack-def.h \
+ ../../modules/core/includes/machine.h
+
+includes/errmds.h:
+
+../../modules/core/includes/machine.h:
+
+includes/dynlib_output_stream.h:
+
+../../modules/core/includes/stack-def.h:
+
+../../modules/core/includes/machine.h:

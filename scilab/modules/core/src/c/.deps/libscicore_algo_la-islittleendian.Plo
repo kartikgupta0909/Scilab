@@ -1,0 +1,7 @@
+src/c/libscicore_algo_la-islittleendian.lo: src/c/islittleendian.c \
+ ../../modules/core/includes/islittleendian.h \
+ ../../modules/core/includes/machine.h
+
+../../modules/core/includes/islittleendian.h:
+
+../../modules/core/includes/machine.h:

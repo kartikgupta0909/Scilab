@@ -1,0 +1,23 @@
+src/c/libscicore_algo_la-inittypenames.lo: src/c/inittypenames.c \
+ src/c/inittypenames.h ../../modules/core/includes/machine.h \
+ src/c/typename.h ../../modules/output_stream/includes/Scierror.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdarg.h \
+ ../../modules/output_stream/includes/do_error_number.h \
+ ../../modules/output_stream/includes/do_error_number.h \
+ ../../modules/core/includes/sci_types.h
+
+src/c/inittypenames.h:
+
+../../modules/core/includes/machine.h:
+
+src/c/typename.h:
+
+../../modules/output_stream/includes/Scierror.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdarg.h:
+
+../../modules/output_stream/includes/do_error_number.h:
+
+../../modules/output_stream/includes/do_error_number.h:
+
+../../modules/core/includes/sci_types.h:

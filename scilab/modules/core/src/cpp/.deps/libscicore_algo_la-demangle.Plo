@@ -1,0 +1,68 @@
+src/cpp/libscicore_algo_la-demangle.lo: src/cpp/demangle.cpp \
+ /usr/include/c++/4.7/cstring \
+ /usr/include/x86_64-linux-gnu/c++/4.7/./bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/4.7/./bits/os_defines.h \
+ /usr/include/features.h /usr/include/stdc-predef.h \
+ /usr/include/x86_64-linux-gnu/bits/predefs.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/c++/4.7/./bits/cpu_defines.h \
+ /usr/include/string.h /usr/lib/gcc/x86_64-linux-gnu/4.7/include/stddef.h \
+ /usr/include/xlocale.h /usr/include/x86_64-linux-gnu/bits/string3.h \
+ ../../modules/core/includes/machine.h src/c/backtrace.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdarg.h \
+ /usr/include/c++/4.7/cxxabi.h \
+ /usr/include/x86_64-linux-gnu/c++/4.7/./bits/cxxabi_tweaks.h \
+ /usr/include/c++/4.7/bits/cxxabi_forced.h /usr/include/c++/4.7/typeinfo \
+ /usr/include/c++/4.7/exception \
+ /usr/include/c++/4.7/bits/atomic_lockfree_defines.h
+
+/usr/include/c++/4.7/cstring:
+
+/usr/include/x86_64-linux-gnu/c++/4.7/./bits/c++config.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.7/./bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/bits/predefs.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.7/./bits/cpu_defines.h:
+
+/usr/include/string.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/x86_64-linux-gnu/bits/string3.h:
+
+../../modules/core/includes/machine.h:
+
+src/c/backtrace.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdarg.h:
+
+/usr/include/c++/4.7/cxxabi.h:
+
+/usr/include/x86_64-linux-gnu/c++/4.7/./bits/cxxabi_tweaks.h:
+
+/usr/include/c++/4.7/bits/cxxabi_forced.h:
+
+/usr/include/c++/4.7/typeinfo:
+
+/usr/include/c++/4.7/exception:
+
+/usr/include/c++/4.7/bits/atomic_lockfree_defines.h:

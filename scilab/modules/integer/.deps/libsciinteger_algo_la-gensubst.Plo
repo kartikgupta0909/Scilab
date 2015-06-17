@@ -1,0 +1,11 @@
+libsciinteger_algo_la-gensubst.lo: src/c/gensubst.c includes/gensubst.h \
+ includes/dynlib_integer.h ../../modules/core/includes/machine.h \
+ includes/def.h
+
+includes/gensubst.h:
+
+includes/dynlib_integer.h:
+
+../../modules/core/includes/machine.h:
+
+includes/def.h:

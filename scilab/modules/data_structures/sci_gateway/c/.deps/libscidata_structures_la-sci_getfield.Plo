@@ -1,0 +1,9 @@
+sci_gateway/c/libscidata_structures_la-sci_getfield.lo: \
+ sci_gateway/c/sci_getfield.c ../../modules/core/includes/machine.h \
+ includes/gw_data_structures2.h includes/dynlib_data_structures.h
+
+../../modules/core/includes/machine.h:
+
+includes/gw_data_structures2.h:
+
+includes/dynlib_data_structures.h:

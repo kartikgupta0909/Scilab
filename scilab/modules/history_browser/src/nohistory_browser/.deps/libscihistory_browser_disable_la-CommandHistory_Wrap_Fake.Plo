@@ -1,0 +1,7 @@
+src/nohistory_browser/libscihistory_browser_disable_la-CommandHistory_Wrap_Fake.lo: \
+ src/nohistory_browser/CommandHistory_Wrap_Fake.c \
+ includes/CommandHistory_Wrap.h includes/dynlib_history_browser.h
+
+includes/CommandHistory_Wrap.h:
+
+includes/dynlib_history_browser.h:

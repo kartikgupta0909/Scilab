@@ -1,0 +1,6 @@
+libscicore_algo_la-cs2st.lo: src/c/cs2st.c src/c/cs2st.h \
+ ../../modules/core/includes/machine.h
+
+src/c/cs2st.h:
+
+../../modules/core/includes/machine.h:

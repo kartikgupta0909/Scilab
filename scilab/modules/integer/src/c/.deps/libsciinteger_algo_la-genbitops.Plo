@@ -1,0 +1,11 @@
+src/c/libsciinteger_algo_la-genbitops.lo: src/c/genbitops.c \
+ includes/genbitops.h includes/dynlib_integer.h \
+ ../../modules/core/includes/machine.h includes/def.h
+
+includes/genbitops.h:
+
+includes/dynlib_integer.h:
+
+../../modules/core/includes/machine.h:
+
+includes/def.h:

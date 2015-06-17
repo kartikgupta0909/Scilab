@@ -1,0 +1,6 @@
+libscidifferential_equations_algo_la-feval.lo: src/c/feval.c \
+ src/c/feval.h ../../modules/core/includes/machine.h
+
+src/c/feval.h:
+
+../../modules/core/includes/machine.h:

@@ -1,0 +1,9 @@
+sci_gateway/c/libscioutput_stream_la-sci_print.lo: \
+ sci_gateway/c/sci_print.c includes/gw_output_stream.h \
+ includes/dynlib_output_stream.h ../../modules/core/includes/machine.h
+
+includes/gw_output_stream.h:
+
+includes/dynlib_output_stream.h:
+
+../../modules/core/includes/machine.h:

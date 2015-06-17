@@ -1,0 +1,1 @@
+libscicore_algo_la-setPrecisionFPU.lo: src/c/setPrecisionFPU.c

@@ -1,0 +1,15 @@
+libsciexternal_objects_algo_la-ScilabOptionsSetter.lo: \
+ src/cpp/ScilabOptionsSetter.cpp includes/ScilabOptionsSetter.hxx \
+ includes/ScilabAbstractOptionsSetter.hxx \
+ includes/dynlib_external_objects_scilab.h includes/OptionsHelper.hxx \
+ includes/ScilabOptionsSetter.hxx
+
+includes/ScilabOptionsSetter.hxx:
+
+includes/ScilabAbstractOptionsSetter.hxx:
+
+includes/dynlib_external_objects_scilab.h:
+
+includes/OptionsHelper.hxx:
+
+includes/ScilabOptionsSetter.hxx:

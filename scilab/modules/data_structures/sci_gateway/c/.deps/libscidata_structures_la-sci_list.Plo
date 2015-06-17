@@ -1,0 +1,9 @@
+sci_gateway/c/libscidata_structures_la-sci_list.lo: \
+ sci_gateway/c/sci_list.c includes/gw_data_structures1.h \
+ ../../modules/core/includes/machine.h includes/dynlib_data_structures.h
+
+includes/gw_data_structures1.h:
+
+../../modules/core/includes/machine.h:
+
+includes/dynlib_data_structures.h:

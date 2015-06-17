@@ -1,0 +1,6 @@
+src/c/libscistring_algo_la-StringConvert.lo: src/c/StringConvert.c \
+ includes/StringConvert.h includes/dynlib_string.h
+
+includes/StringConvert.h:
+
+includes/dynlib_string.h:

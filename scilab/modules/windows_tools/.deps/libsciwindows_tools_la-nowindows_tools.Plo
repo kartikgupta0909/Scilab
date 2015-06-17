@@ -1,0 +1,19 @@
+libsciwindows_tools_la-nowindows_tools.lo: \
+ src/nowindows_tools/nowindows_tools.c includes/gw_windows_tools.h \
+ includes/dynlib_windows_tools.h \
+ ../../modules/output_stream/includes/Scierror.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdarg.h \
+ ../../modules/output_stream/includes/do_error_number.h \
+ ../../modules/core/includes/machine.h
+
+includes/gw_windows_tools.h:
+
+includes/dynlib_windows_tools.h:
+
+../../modules/output_stream/includes/Scierror.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdarg.h:
+
+../../modules/output_stream/includes/do_error_number.h:
+
+../../modules/core/includes/machine.h:

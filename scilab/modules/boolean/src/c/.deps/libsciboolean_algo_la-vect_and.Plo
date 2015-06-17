@@ -1,0 +1,6 @@
+src/c/libsciboolean_algo_la-vect_and.lo: src/c/vect_and.c \
+ ../../modules/core/includes/BOOL.h src/c/vect_and.h
+
+../../modules/core/includes/BOOL.h:
+
+src/c/vect_and.h:

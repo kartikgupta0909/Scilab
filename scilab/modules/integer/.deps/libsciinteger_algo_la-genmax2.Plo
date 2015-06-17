@@ -1,0 +1,11 @@
+libsciinteger_algo_la-genmax2.lo: src/c/genmax2.c includes/genmax2.h \
+ includes/dynlib_integer.h ../../modules/core/includes/machine.h \
+ includes/def.h
+
+includes/genmax2.h:
+
+includes/dynlib_integer.h:
+
+../../modules/core/includes/machine.h:
+
+includes/def.h:

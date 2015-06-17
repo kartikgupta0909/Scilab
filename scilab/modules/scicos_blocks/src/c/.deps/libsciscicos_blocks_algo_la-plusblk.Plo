@@ -1,0 +1,4 @@
+src/c/libsciscicos_blocks_algo_la-plusblk.lo: src/c/plusblk.c \
+ includes/dynlib_scicos_blocks.h
+
+includes/dynlib_scicos_blocks.h:

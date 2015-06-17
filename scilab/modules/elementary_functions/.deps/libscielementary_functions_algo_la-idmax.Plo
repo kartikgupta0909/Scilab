@@ -1,0 +1,15 @@
+libscielementary_functions_algo_la-idmax.lo: src/c/idmax.c \
+ includes/idmax.h ../../modules/core/includes/machine.h \
+ includes/dynlib_elementary_functions.h \
+ ../../modules/core/includes/isanan.h \
+ ../../modules/core/includes/machine.h
+
+includes/idmax.h:
+
+../../modules/core/includes/machine.h:
+
+includes/dynlib_elementary_functions.h:
+
+../../modules/core/includes/isanan.h:
+
+../../modules/core/includes/machine.h:

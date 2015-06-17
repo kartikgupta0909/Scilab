@@ -1,0 +1,13 @@
+libscidifferential_equations_algo_la-colnewtable.lo: src/c/colnewtable.c \
+ ../../modules/dynamic_link/includes/GetFunctionByName.h \
+ ../../modules/dynamic_link/includes/dynlib_dynamic_link.h \
+ ../../modules/core/includes/machine.h \
+ includes/dynlib_differential_equations.h
+
+../../modules/dynamic_link/includes/GetFunctionByName.h:
+
+../../modules/dynamic_link/includes/dynlib_dynamic_link.h:
+
+../../modules/core/includes/machine.h:
+
+includes/dynlib_differential_equations.h:

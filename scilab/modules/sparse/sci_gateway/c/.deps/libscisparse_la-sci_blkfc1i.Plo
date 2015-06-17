@@ -1,0 +1,9 @@
+sci_gateway/c/libscisparse_la-sci_blkfc1i.lo: sci_gateway/c/sci_blkfc1i.c \
+ includes/gw_sparse.h ../../modules/core/includes/machine.h \
+ includes/dynlib_sparse.h
+
+includes/gw_sparse.h:
+
+../../modules/core/includes/machine.h:
+
+includes/dynlib_sparse.h:

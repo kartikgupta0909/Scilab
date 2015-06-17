@@ -1,0 +1,15 @@
+src/c/libscielementary_functions_algo_la-cmp.lo: src/c/cmp.c src/c/cmp.h \
+ ../../modules/core/includes/machine.h \
+ includes/dynlib_elementary_functions.h \
+ ../../modules/core/includes/isanan.h \
+ ../../modules/core/includes/machine.h
+
+src/c/cmp.h:
+
+../../modules/core/includes/machine.h:
+
+includes/dynlib_elementary_functions.h:
+
+../../modules/core/includes/isanan.h:
+
+../../modules/core/includes/machine.h:

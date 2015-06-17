@@ -1,0 +1,12 @@
+src/c/libscioptimization_algo_la-lsqrsolvtable.lo: src/c/lsqrsolvtable.c \
+ ../../modules/dynamic_link/includes/GetFunctionByName.h \
+ ../../modules/dynamic_link/includes/dynlib_dynamic_link.h \
+ ../../modules/core/includes/machine.h includes/dynlib_optimization.h
+
+../../modules/dynamic_link/includes/GetFunctionByName.h:
+
+../../modules/dynamic_link/includes/dynlib_dynamic_link.h:
+
+../../modules/core/includes/machine.h:
+
+includes/dynlib_optimization.h:

@@ -1,0 +1,10 @@
+src/c/libsciscicos_algo_la-scicos_print.lo: src/c/scicos_print.c \
+ ../../modules/output_stream/includes/sciprint.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdarg.h \
+ ../../modules/core/includes/BOOL.h
+
+../../modules/output_stream/includes/sciprint.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdarg.h:
+
+../../modules/core/includes/BOOL.h:

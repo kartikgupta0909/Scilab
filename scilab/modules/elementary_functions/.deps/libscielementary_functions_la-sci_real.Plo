@@ -1,0 +1,9 @@
+libscielementary_functions_la-sci_real.lo: sci_gateway/c/sci_real.c \
+ includes/gw_elementary_functions.h ../../modules/core/includes/machine.h \
+ includes/dynlib_elementary_functions.h
+
+includes/gw_elementary_functions.h:
+
+../../modules/core/includes/machine.h:
+
+includes/dynlib_elementary_functions.h:

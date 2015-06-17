@@ -1,0 +1,10 @@
+libscidifferential_equations_la-sci_odc.lo: sci_gateway/c/sci_odc.c \
+ includes/gw_differential_equations3.h \
+ includes/dynlib_differential_equations.h \
+ ../../modules/core/includes/machine.h
+
+includes/gw_differential_equations3.h:
+
+includes/dynlib_differential_equations.h:
+
+../../modules/core/includes/machine.h:

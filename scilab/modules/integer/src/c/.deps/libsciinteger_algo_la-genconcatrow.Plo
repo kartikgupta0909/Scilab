@@ -1,0 +1,11 @@
+src/c/libsciinteger_algo_la-genconcatrow.lo: src/c/genconcatrow.c \
+ includes/genconcatrow.h includes/dynlib_integer.h \
+ ../../modules/core/includes/machine.h includes/def.h
+
+includes/genconcatrow.h:
+
+includes/dynlib_integer.h:
+
+../../modules/core/includes/machine.h:
+
+includes/def.h:

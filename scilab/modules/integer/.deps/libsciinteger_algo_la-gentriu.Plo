@@ -1,0 +1,11 @@
+libsciinteger_algo_la-gentriu.lo: src/c/gentriu.c includes/gentriu.h \
+ ../../modules/core/includes/machine.h includes/dynlib_integer.h \
+ includes/def.h
+
+includes/gentriu.h:
+
+../../modules/core/includes/machine.h:
+
+includes/dynlib_integer.h:
+
+includes/def.h:

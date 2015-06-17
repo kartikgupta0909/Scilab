@@ -1,0 +1,9 @@
+libscisymbolic_la-sci_ldivf.lo: sci_gateway/c/sci_ldivf.c \
+ includes/gw_symbolic.h includes/dynlib_symbolic.h \
+ ../../modules/core/includes/machine.h
+
+includes/gw_symbolic.h:
+
+includes/dynlib_symbolic.h:
+
+../../modules/core/includes/machine.h:

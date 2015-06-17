@@ -1,0 +1,4 @@
+src/c/libscicore_algo_la-exitCodeValue.lo: src/c/exitCodeValue.c \
+ src/c/exitCodeValue.h
+
+src/c/exitCodeValue.h:

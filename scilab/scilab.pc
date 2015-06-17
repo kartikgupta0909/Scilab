@@ -1,0 +1,13 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+bindir=${exec_prefix}/bin
+libdir=${exec_prefix}/lib/scilab
+includedir=${prefix}/include/scilab
+
+Name: libscilab
+Description: Scilab Library
+URL: http://www.scilab.org
+Version: 5.6.0
+Requires: libxml-2.0 libpcre
+Libs: -L${libdir} -lscilab
+Cflags: -I${includedir} -lieee -lSM -lncurses  -L/usr/lib/x86_64-linux-gnu -ltk8.5   -L/usr/lib/x86_64-linux-gnu -ltcl8.5  -ldl

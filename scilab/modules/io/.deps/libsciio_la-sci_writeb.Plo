@@ -1,0 +1,8 @@
+libsciio_la-sci_writeb.lo: sci_gateway/c/sci_writeb.c includes/gw_io.h \
+ ../../modules/core/includes/machine.h includes/dynlib_io.h
+
+includes/gw_io.h:
+
+../../modules/core/includes/machine.h:
+
+includes/dynlib_io.h:

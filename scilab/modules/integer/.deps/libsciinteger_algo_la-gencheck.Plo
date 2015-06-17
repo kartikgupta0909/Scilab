@@ -1,0 +1,11 @@
+libsciinteger_algo_la-gencheck.lo: src/c/gencheck.c includes/gencheck.h \
+ includes/dynlib_integer.h ../../modules/core/includes/machine.h \
+ includes/def.h
+
+includes/gencheck.h:
+
+includes/dynlib_integer.h:
+
+../../modules/core/includes/machine.h:
+
+includes/def.h:

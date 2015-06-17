@@ -1,0 +1,10 @@
+libscidifferential_equations_la-sci_int2d.lo: sci_gateway/c/sci_int2d.c \
+ includes/gw_differential_equations4.h \
+ includes/dynlib_differential_equations.h \
+ ../../modules/core/includes/machine.h
+
+includes/gw_differential_equations4.h:
+
+includes/dynlib_differential_equations.h:
+
+../../modules/core/includes/machine.h:

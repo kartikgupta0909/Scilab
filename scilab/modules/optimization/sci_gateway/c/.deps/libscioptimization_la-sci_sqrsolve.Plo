@@ -1,0 +1,9 @@
+sci_gateway/c/libscioptimization_la-sci_sqrsolve.lo: \
+ sci_gateway/c/sci_sqrsolve.c includes/gw_optimization.h \
+ includes/dynlib_optimization.h ../../modules/core/includes/machine.h
+
+includes/gw_optimization.h:
+
+includes/dynlib_optimization.h:
+
+../../modules/core/includes/machine.h:
