@@ -37,7 +37,10 @@ src/c/libscifileio_algo_la-archive_list.lo: src/c/archive_list.c \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/archive_entry.h \
- /usr/include/xlocale.h
+ /usr/include/xlocale.h /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/string.h \
+ /usr/include/x86_64-linux-gnu/bits/string2.h \
+ /usr/include/x86_64-linux-gnu/bits/string3.h
 
 /usr/include/archive.h:
 
@@ -144,3 +147,11 @@ src/c/libscifileio_algo_la-archive_list.lo: src/c/archive_list.c \
 /usr/include/archive_entry.h:
 
 /usr/include/xlocale.h:
+
+/usr/include/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/string2.h:
+
+/usr/include/x86_64-linux-gnu/bits/string3.h:

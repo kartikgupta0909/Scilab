@@ -58,7 +58,9 @@ src/c/fprintfMat.c \
 src/c/createtempfilename.c \
 src/c/dlManager.c \
 src/c/convert_tools.c \
-src/c/archive_list.c
+src/c/archive_list.c \
+src/c/archive_extract.c \
+src/c/archive_compress.c
 
 GATEWAY_SOURCES = \
 sci_gateway/c/gw_fileio.c \
@@ -109,8 +111,7 @@ sci_gateway/c/sci_mputl.c \
 sci_gateway/c/sci_tempname.c \
 sci_gateway/c/sci_getURL.c \
 sci_gateway/c/sci_splitURL.c \
-sci_gateway/c/sci_archive_list.c
-
+sci_gateway/c/archive_wrap.c 
 
 libscifileio_la_CPPFLAGS = -I$(srcdir)/includes/ \
 				-I$(srcdir)/src/c/ \
