@@ -282,7 +282,8 @@ am__objects_2 = sci_gateway/c/libscifileio_la-gw_fileio.lo \
 	sci_gateway/c/libscifileio_la-sci_tempname.lo \
 	sci_gateway/c/libscifileio_la-sci_getURL.lo \
 	sci_gateway/c/libscifileio_la-sci_splitURL.lo \
-	sci_gateway/c/libscifileio_la-archive_wrap.lo
+	sci_gateway/c/libscifileio_la-archive_wrap.lo \
+	sci_gateway/c/libscifileio_la-sci_archive_list.lo
 am_libscifileio_la_OBJECTS = $(am__objects_2)
 libscifileio_la_OBJECTS = $(am_libscifileio_la_OBJECTS)
 am_libscifileio_la_rpath =
@@ -735,7 +736,8 @@ sci_gateway/c/sci_mputl.c \
 sci_gateway/c/sci_tempname.c \
 sci_gateway/c/sci_getURL.c \
 sci_gateway/c/sci_splitURL.c \
-sci_gateway/c/archive_wrap.c 
+sci_gateway/c/archive_wrap.c \
+sci_gateway/c/sci_archive_list.c
 
 libscifileio_la_CPPFLAGS = -I$(srcdir)/includes/ \
 				-I$(srcdir)/src/c/ \
@@ -1221,6 +1223,9 @@ sci_gateway/c/libscifileio_la-sci_splitURL.lo:  \
 sci_gateway/c/libscifileio_la-archive_wrap.lo:  \
 	sci_gateway/c/$(am__dirstamp) \
 	sci_gateway/c/$(DEPDIR)/$(am__dirstamp)
+sci_gateway/c/libscifileio_la-sci_archive_list.lo:  \
+	sci_gateway/c/$(am__dirstamp) \
+	sci_gateway/c/$(DEPDIR)/$(am__dirstamp)
 
 libscifileio.la: $(libscifileio_la_OBJECTS) $(libscifileio_la_DEPENDENCIES) $(EXTRA_libscifileio_la_DEPENDENCIES) 
 	$(AM_V_CCLD)$(LINK) $(am_libscifileio_la_rpath) $(libscifileio_la_OBJECTS) $(libscifileio_la_LIBADD) $(LIBS)
@@ -1237,6 +1242,7 @@ distclean-compile:
 
 include sci_gateway/c/$(DEPDIR)/libscifileio_la-archive_wrap.Plo
 include sci_gateway/c/$(DEPDIR)/libscifileio_la-gw_fileio.Plo
+include sci_gateway/c/$(DEPDIR)/libscifileio_la-sci_archive_list.Plo
 include sci_gateway/c/$(DEPDIR)/libscifileio_la-sci_basename.Plo
 include sci_gateway/c/$(DEPDIR)/libscifileio_la-sci_chdir.Plo
 include sci_gateway/c/$(DEPDIR)/libscifileio_la-sci_copyfile.Plo
@@ -2107,6 +2113,13 @@ sci_gateway/c/libscifileio_la-archive_wrap.lo: sci_gateway/c/archive_wrap.c
 #	$(AM_V_CC)source='sci_gateway/c/archive_wrap.c' object='sci_gateway/c/libscifileio_la-archive_wrap.lo' libtool=yes \
 #	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
 #	$(AM_V_CC_no)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(libscifileio_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o sci_gateway/c/libscifileio_la-archive_wrap.lo `test -f 'sci_gateway/c/archive_wrap.c' || echo '$(srcdir)/'`sci_gateway/c/archive_wrap.c
+
+sci_gateway/c/libscifileio_la-sci_archive_list.lo: sci_gateway/c/sci_archive_list.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(libscifileio_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT sci_gateway/c/libscifileio_la-sci_archive_list.lo -MD -MP -MF sci_gateway/c/$(DEPDIR)/libscifileio_la-sci_archive_list.Tpo -c -o sci_gateway/c/libscifileio_la-sci_archive_list.lo `test -f 'sci_gateway/c/sci_archive_list.c' || echo '$(srcdir)/'`sci_gateway/c/sci_archive_list.c
+	$(AM_V_at)$(am__mv) sci_gateway/c/$(DEPDIR)/libscifileio_la-sci_archive_list.Tpo sci_gateway/c/$(DEPDIR)/libscifileio_la-sci_archive_list.Plo
+#	$(AM_V_CC)source='sci_gateway/c/sci_archive_list.c' object='sci_gateway/c/libscifileio_la-sci_archive_list.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(AM_V_CC_no)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(libscifileio_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o sci_gateway/c/libscifileio_la-sci_archive_list.lo `test -f 'sci_gateway/c/sci_archive_list.c' || echo '$(srcdir)/'`sci_gateway/c/sci_archive_list.c
 
 mostlyclean-libtool:
 	-rm -f *.lo

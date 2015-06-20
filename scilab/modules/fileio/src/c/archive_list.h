@@ -18,6 +18,6 @@
 #include <archive.h>
 #include <archive_entry.h>
 
-char* archive_list(char *filename);
+char** archive_list(char *filename,int *size);
 
 #endif

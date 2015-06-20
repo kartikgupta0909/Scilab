@@ -83,9 +83,11 @@ int sci_fullpath(char *fname, unsigned long fname_len)
     {
         char fullpathtmp[PATH_MAX * 4];
         strcpy(fullpathtmp, "");
+	printf("I am sending this as the input %s\n",pStVarOne[i]);
         if ( get_full_path(fullpathtmp, pStVarOne[i], PATH_MAX * 4 ) != NULL )
         {
             pStFullPath[i] = strdup(fullpathtmp);
+	    printf("This is the output %s\n",pStFullPath[i]);
         }
         else
         {
